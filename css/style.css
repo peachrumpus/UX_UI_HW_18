@@ -1,6 +1,14 @@
 body {
   margin: 0;
+  }
+
+  body {
+    background-image: url("goveredesign.png");
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    /* You can add more properties here as needed */
 }
+
 header {
   background-color: #373738;
   padding: 15px;
@@ -19,7 +27,29 @@ header p {
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
+  float: left;
 }
+
+.heroImg img {
+
+width: 200px;
+float: left;
+
+}
+
+.heroImg2 {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+  float: right;
+}
+
+.heroImg2 img {
+
+width: 200px;
+float: right;
+
+}
+
 .content {
   max-width: 300px;
   margin: 0 auto;
@@ -34,6 +64,31 @@ button {
   font-size: 15px;
   border-radius: 4px;
 }
+
+/* My UX Skills section coded using CSS flex */
+
+.boba{
+
+  width: 33%;
+  margin: 100px;
+  padding: 100px;
+
+}
+
+.flexContainer{
+
+display: flex;
+
+}
+
+.flexContainer div {
+
+width: 33%;
+margin: 100px;
+padding: 100px;
+
+}
+
 footer {
   background-color: #373738;
   padding: 5px;
